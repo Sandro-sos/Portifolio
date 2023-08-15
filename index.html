@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio | Sandro</title>
+
+    <!-- Cópia para emojis de navegações  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- Cópia para emojis de navegações  -->
+
+</head>
+<body>
+    
+<!-- Header começo  -->
+
+<header>
+
+    <div class="user">
+        <img src="img/eu1.jpeg" alt="Minha fotinho">
+        <h3 class="name">Sandro Sant´Anna</h3>
+        <p class="post">Progamador iniciante</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Começo</a></li>
+            <li><a href="#about">Habilidades</a></li>
+            <li><a href="#education">Educação</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header Fim -->
+
+<!-- Começo  -->
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <h3>Olá.</h3>
+        <h3 class="name">Me chamo <span>Sandro Sant´Anna</span></h3>
+        <h3 class="post">Eu sou <span class="typing-text">progamador</span></h3>
+
+        <a href="#"><button class="btn">Contrate-me</button></a>
+
+        <div class="share">
+            <a href="https://www.linkedin.com/in/sandro-oliveira-sant´anna-751459277/" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/sos_codes/" class="fab fa-instagram"></a>
+            <a href="https://github.com/Sandro-sos" class="fab fa-github"></a>
+            <a href="https://wa.me/555186547161" class="fab fa-whatsapp"></a>
+        </div>
+
+    </section>
+
+    <!-- Habilidades  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">Habilidades</h1>
+
+        <div class="content">
+            <h3 class="name">Olá sou o  <span>Sandro</span></h3>
+            <p>Um apaixonado desenvolvedor web com um profundo amor pelo design e pela programação. Minha jornada no mundo digital começou com a descoberta de como dar vida a ideias através de linhas de código.</p>
+            <p>Desde então, tenho me dedicado a aprimorar minhas habilidades e criar experiências web envolventes e funcionais.</p>
+        </div>
+
+        <div class="skills">
+            <div class="progress">
+                <h3>html <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>css <span>55%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>javascript <span>50%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>photoshop <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Educação  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading">Minha Educação</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="year">2022 - 2024</div>
+                <h3>Técnico em informática</h3>
+                <p>Alcides Maya Escola Técnica | Porto Alegre</p>
+                <p>Atualmente estudo ainda para, sempre poder estar aprendendo e conhecendo novas modalidades na área da tecnologia.</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2023 - 2023</div>
+                <h3>Desenvolvimento Web</h3>
+                <p>Udemy | André Iacono</p>
+                <p>Finalizado com mais de 50 projetos feitos!</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2023 - 2023</div>
+                <h3>Python</h3>
+                <p>Em andamento...</p>
+            </div>
+
+            <div class="box">
+                <div class="year">.... - ....</div>
+                <h3>Esperando acabar os que estou atualmente</h3>
+                <p>...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contato  -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">Meios de contato</h1>
+
+        <div class="row">
+
+            <div class="content">
+                <div class="icons">
+                    <h3><i class="fas fa-map-marker-alt"></i> Endereço </h3>
+                    <p>Porto Algre, Rio Grande Do Sul</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-envelope"></i> Email </h3>
+                    <p>sandrosantannatecinformatica@gmail.com</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-phone"></i> Celular / WhatsApp </h3>
+                    <p>(51) 9 8654-7161</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- Trocando a cor  -->
+
+<div class="theme-toggler">
+    <span style="background:linear-gradient(#999, black)"></span>
+    <span style="background: linear-gradient(black, purple);"></span>
+    <span style="background:linear-gradient(black, red)"></span>
+    <span style="background:linear-gradient(black, green)"></span>
+</div>
+
+
+<!-- Link para a troca de cores  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+<!-- Link para a troca de cores  -->
+
+<script>
+    var type = new Typed('.typing-text',{
+        strings : [ 'Desenvolverdor Web', 'Designer', 'Progamador'],
+        typeSpeed: 120,
+        loop:true
+    });
+
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+
+</script>
+
+</body>
+</html>
